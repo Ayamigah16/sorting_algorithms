@@ -60,7 +60,7 @@ if (array == NULL || size < 2)
 return;
 
 for (i = (size / 2) - 1; i >= 0; i--)
-max_heapify(array, size, size, i);
+heapify(array, size, size, i);
 
 for (i = size - 1; i > 0; i--)
 {
