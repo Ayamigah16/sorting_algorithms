@@ -8,7 +8,7 @@ char direction);
 void bitonic_sort(int *array, size_t size);
 
 /**
- * swap_ints - Swap two integers in an array.
+ * swap_vals - Swap two integers in an array.
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
