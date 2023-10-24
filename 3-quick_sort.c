@@ -76,7 +76,7 @@ lomuto_sort(array, size, pivot_idx + 1, right);
 
 /**
  * quick_sort - Sorts an array of integers in ascending order
- * 				using Lomuto quick sort.
+ * using Lomuto quick sort.
  * @array: The array to be sorted.
  * @size: The size of the array.
  */
