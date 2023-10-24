@@ -35,12 +35,10 @@ int pivot, higher, lower;
 pivot = array[right];
 for (higher = left - 1, lower = right + 1; higher < lower;)
 {
-do
-{
+do {
 higher++;
 } while (array[higher] < pivot);
-do
-{
+do {
 lower--;
 } while (array[lower] > pivot);
 
